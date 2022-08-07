@@ -40,11 +40,6 @@ class FeedFragment : Fragment() {
             it.findNavController().navigate(R.id.action_feedFragment3_to_myPageFragment2)
         }
 
-        binding.addContextBtn.setOnClickListener{
-
-            it.findNavController().navigate(R.id.action_feedFragment_to_boardWriteActivity)
-        }
-
         return binding.root
     }
 
